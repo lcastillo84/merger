@@ -37,7 +37,7 @@ Al ejecutar `python merge.py` obtenemos el siguiente resultado:
 ## Instrucciones:
 
 1. Instalar dependencias usando pipenv o pip (se provee Pipfile y requirements.txt)
-2. Ejecutar `python merge.py` o
+2. Ejecutar `python merge.py`
 
 ## Argumentos opcionales
 
@@ -70,3 +70,7 @@ Al ejecutar `python merge.py` obtenemos el siguiente resultado:
 - Combinar archivos .txt con columnas separadas por tabulaciones en la ruta relativa _/input/_, donde los encabezados están en la fila 5
 
   `python merger.py --sep t --skiprows 4`
+
+## Generar ejecutable (windows)
+
+`pyinstaller merger.py --onefile --hidden-import="pkg_resources.py2_warn"`
