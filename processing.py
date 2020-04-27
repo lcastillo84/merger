@@ -53,6 +53,6 @@ def concat_files(folder_path, file_names, sep, skiprows):
             print(f'Ignorando archivo {fpath}. Formato no soportado')
         else:
             df, result = load_file_to_df(
-                df, fname, fpath, fext, sep='\t', skiprows=1)
+                df, fname, fpath, fext, sep=sep, skiprows=skiprows)
             print(result)
     return df
