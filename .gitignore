@@ -133,7 +133,7 @@ dmypy.json
 *.csv
 *.xlsx
 *.xls
-*.txt
+input/*.txt
 .vscode
 dist/*
 !dist/merger.exe
