@@ -67,9 +67,17 @@ Al ejecutar `python merge.py` obtenemos el siguiente resultado:
 
   `python merger.py --folder_path "C:\Users\luisc\Documents\mediciones"`
 
+  Alternativamente, si tenemos un ejecutable:
+
+  `merger.exe --folder_path "C:\Users\luisc\Documents\mediciones"`
+
 - Combinar archivos .txt con columnas separadas por tabulaciones en la ruta relativa _/input/_, donde los encabezados están en la fila 5
 
   `python merger.py --sep t --skiprows 4`
+
+  Alternativamente, si tenemos un ejecutable:
+
+  `merger.exe --sep t --skiprows 4`
 
 ## Generar ejecutable (windows)
 
